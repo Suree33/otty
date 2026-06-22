@@ -7,8 +7,8 @@ whiskers:
 ---
 [meta]
 name = "Catppuccin {{ flavor.name }}"
-author      = "Catppuccin"
-mode        = "{{ if(cond=flavor.dark, t='dark', f='light') }}"
+author = "Catppuccin"
+mode = "{{ if(cond=flavor.dark, t='dark', f='light') }}"
 description = "Soothing pastel theme for Otty"
 
 [terminal]
@@ -29,26 +29,26 @@ background = "#{{ overlay2 | mix(color=base, amount=0.2) | hex }}"
 
 [token]
 foreground = "#{{ text.hex }}"
-secondary  = "#{{ subtext1.hex }}"
-tertiary   = "#{{ subtext0.hex }}"
-accent     = "#{{ lavender.hex }}"
+secondary = "#{{ subtext1.hex }}"
+tertiary = "#{{ subtext0.hex }}"
+accent = "#{{ lavender.hex }}"
 
 [panel]
 background = "#{{ mantle.hex }}"
-surface    = "#{{ surface0.hex }}"
-border     = "#{{ surface1.hex }}"
+surface = "#{{ surface0.hex }}"
+border = "#{{ surface1.hex }}"
 
 [sidebar]
-background   = "#{{ mantle.hex }}"
+background = "#{{ mantle.hex }}"
 border-right = "1px solid #{{ surface0.hex }}"
-material     = "none"
+material = "none"
 
 [tab]
-foreground  = "#{{ subtext0.hex }}"
+foreground = "#{{ subtext0.hex }}"
 
 [tab.active]
-background  = "#{{ surface0.hex }}"
-foreground  = "#{{ text.hex }}"
+background = "#{{ surface0.hex }}"
+foreground = "#{{ text.hex }}"
 
 [tab.hover]
 background = "#{{ surface0.hex }}66"

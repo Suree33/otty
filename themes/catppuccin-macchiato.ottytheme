@@ -1,7 +1,7 @@
 [meta]
 name = "Catppuccin Macchiato"
-author      = "Catppuccin"
-mode        = "dark"
+author = "Catppuccin"
+mode = "dark"
 description = "Soothing pastel theme for Otty"
 
 [terminal]
@@ -22,26 +22,26 @@ background = "#3a3e53"
 
 [token]
 foreground = "#cad3f5"
-secondary  = "#b8c0e0"
-tertiary   = "#a5adcb"
-accent     = "#b7bdf8"
+secondary = "#b8c0e0"
+tertiary = "#a5adcb"
+accent = "#b7bdf8"
 
 [panel]
 background = "#1e2030"
-surface    = "#363a4f"
-border     = "#494d64"
+surface = "#363a4f"
+border = "#494d64"
 
 [sidebar]
-background   = "#1e2030"
+background = "#1e2030"
 border-right = "1px solid #363a4f"
-material     = "none"
+material = "none"
 
 [tab]
-foreground  = "#a5adcb"
+foreground = "#a5adcb"
 
 [tab.active]
-background  = "#363a4f"
-foreground  = "#cad3f5"
+background = "#363a4f"
+foreground = "#cad3f5"
 
 [tab.hover]
 background = "#363a4f66"

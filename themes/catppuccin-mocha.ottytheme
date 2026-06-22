@@ -1,7 +1,7 @@
 [meta]
 name = "Catppuccin Mocha"
-author      = "Catppuccin"
-mode        = "dark"
+author = "Catppuccin"
+mode = "dark"
 description = "Soothing pastel theme for Otty"
 
 [terminal]
@@ -22,26 +22,26 @@ background = "#353749"
 
 [token]
 foreground = "#cdd6f4"
-secondary  = "#bac2de"
-tertiary   = "#a6adc8"
-accent     = "#b4befe"
+secondary = "#bac2de"
+tertiary = "#a6adc8"
+accent = "#b4befe"
 
 [panel]
 background = "#181825"
-surface    = "#313244"
-border     = "#45475a"
+surface = "#313244"
+border = "#45475a"
 
 [sidebar]
-background   = "#181825"
+background = "#181825"
 border-right = "1px solid #313244"
-material     = "none"
+material = "none"
 
 [tab]
-foreground  = "#a6adc8"
+foreground = "#a6adc8"
 
 [tab.active]
-background  = "#313244"
-foreground  = "#cdd6f4"
+background = "#313244"
+foreground = "#cdd6f4"
 
 [tab.hover]
 background = "#31324466"

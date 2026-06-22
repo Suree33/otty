@@ -1,7 +1,7 @@
 [meta]
 name = "Catppuccin Frappé"
-author      = "Catppuccin"
-mode        = "dark"
+author = "Catppuccin"
+mode = "dark"
 description = "Soothing pastel theme for Otty"
 
 [terminal]
@@ -22,26 +22,26 @@ background = "#44495d"
 
 [token]
 foreground = "#c6d0f5"
-secondary  = "#b5bfe2"
-tertiary   = "#a5adce"
-accent     = "#babbf1"
+secondary = "#b5bfe2"
+tertiary = "#a5adce"
+accent = "#babbf1"
 
 [panel]
 background = "#292c3c"
-surface    = "#414559"
-border     = "#51576d"
+surface = "#414559"
+border = "#51576d"
 
 [sidebar]
-background   = "#292c3c"
+background = "#292c3c"
 border-right = "1px solid #414559"
-material     = "none"
+material = "none"
 
 [tab]
-foreground  = "#a5adce"
+foreground = "#a5adce"
 
 [tab.active]
-background  = "#414559"
-foreground  = "#c6d0f5"
+background = "#414559"
+foreground = "#c6d0f5"
 
 [tab.hover]
 background = "#41455966"
