@@ -1,0 +1,50 @@
+[meta]
+name = "Catppuccin Latte"
+author      = "Catppuccin"
+mode        = "light"
+description = "Soothing pastel theme for Otty"
+
+[terminal]
+foreground = "#4c4f69"
+background = "#eff1f5"
+cursor = "#dc8a78"
+cursor-text = "#eff1f5"
+palette = [
+    "#5c5f77", "#d20f39", "#40a02b", "#df8e1d",
+    "#1e66f5", "#ea76cb", "#179299", "#acb0be",
+    "#6c6f85", "#d20f39", "#40a02b", "#df8e1d",
+    "#1e66f5", "#ea76cb", "#179299", "#bcc0cc",
+]
+
+[selection]
+foreground = "#4c4f69"
+background = "#d8dae1"
+
+[token]
+foreground = "#4c4f69"
+secondary  = "#5c5f77"
+tertiary   = "#6c6f85"
+accent     = "#7287fd"
+
+[panel]
+background = "#e6e9ef"
+surface    = "#ccd0da"
+border     = "#bcc0cc"
+
+[sidebar]
+background   = "#e6e9ef"
+border-right = "1px solid #ccd0da"
+material     = "none"
+
+[tab]
+foreground  = "#6c6f85"
+
+[tab.active]
+background  = "#ccd0da"
+foreground  = "#4c4f69"
+
+[tab.hover]
+background = "#ccd0da66"
+
+[tab-bar]
+border-bottom = "1px solid #ccd0da"

@@ -1,0 +1,50 @@
+[meta]
+name = "Catppuccin Macchiato"
+author      = "Catppuccin"
+mode        = "dark"
+description = "Soothing pastel theme for Otty"
+
+[terminal]
+foreground = "#cad3f5"
+background = "#24273a"
+cursor = "#f4dbd6"
+cursor-text = "#181926"
+palette = [
+    "#494d64", "#ed8796", "#a6da95", "#eed49f",
+    "#8aadf4", "#f5bde6", "#8bd5ca", "#a5adcb",
+    "#5b6078", "#ed8796", "#a6da95", "#eed49f",
+    "#8aadf4", "#f5bde6", "#8bd5ca", "#b8c0e0",
+]
+
+[selection]
+foreground = "#cad3f5"
+background = "#3a3e53"
+
+[token]
+foreground = "#cad3f5"
+secondary  = "#b8c0e0"
+tertiary   = "#a5adcb"
+accent     = "#b7bdf8"
+
+[panel]
+background = "#1e2030"
+surface    = "#363a4f"
+border     = "#494d64"
+
+[sidebar]
+background   = "#1e2030"
+border-right = "1px solid #363a4f"
+material     = "none"
+
+[tab]
+foreground  = "#a5adcb"
+
+[tab.active]
+background  = "#363a4f"
+foreground  = "#cad3f5"
+
+[tab.hover]
+background = "#363a4f66"
+
+[tab-bar]
+border-bottom = "1px solid #363a4f"
