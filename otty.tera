@@ -4,6 +4,7 @@ whiskers:
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.ottytheme"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 [meta]
 name = "Catppuccin {{ flavor.name }}"
@@ -12,46 +13,46 @@ mode = "{{ if(cond=flavor.dark, t='dark', f='light') }}"
 description = "Soothing pastel theme for Otty"
 
 [terminal]
-foreground = "#{{ text.hex }}"
-background = "#{{ base.hex }}"
-cursor = "#{{ rosewater.hex }}"
-cursor-text = "#{{ if(cond=flavor.dark, t=crust.hex, f=base.hex) }}"
+foreground = "{{ text.hex }}"
+background = "{{ base.hex }}"
+cursor = "{{ rosewater.hex }}"
+cursor-text = "{{ if(cond=flavor.dark, t=crust.hex, f=base.hex) }}"
 palette = [
-    "#{{ if(cond=flavor.dark, t=surface1.hex, f=subtext1.hex) }}", "#{{ red.hex }}", "#{{ green.hex }}", "#{{ yellow.hex }}",
-    "#{{ blue.hex }}", "#{{ pink.hex }}", "#{{ teal.hex }}", "#{{ if(cond=flavor.dark, t=subtext0.hex, f=surface2.hex) }}",
-    "#{{ if(cond=flavor.dark, t=surface2.hex, f=subtext0.hex) }}", "#{{ red.hex }}", "#{{ green.hex }}", "#{{ yellow.hex }}",
-    "#{{ blue.hex }}", "#{{ pink.hex }}", "#{{ teal.hex }}", "#{{ if(cond=flavor.dark, t=subtext1.hex, f=surface1.hex) }}",
+    "{{ if(cond=flavor.dark, t=surface1.hex, f=subtext1.hex) }}", "{{ red.hex }}", "{{ green.hex }}", "{{ yellow.hex }}",
+    "{{ blue.hex }}", "{{ pink.hex }}", "{{ teal.hex }}", "{{ if(cond=flavor.dark, t=subtext0.hex, f=surface2.hex) }}",
+    "{{ if(cond=flavor.dark, t=surface2.hex, f=subtext0.hex) }}", "{{ red.hex }}", "{{ green.hex }}", "{{ yellow.hex }}",
+    "{{ blue.hex }}", "{{ pink.hex }}", "{{ teal.hex }}", "{{ if(cond=flavor.dark, t=subtext1.hex, f=surface1.hex) }}",
 ]
 
 [selection]
-foreground = "#{{ text.hex }}"
-background = "#{{ overlay2 | mix(color=base, amount=0.2) | hex }}"
+foreground = "{{ text.hex }}"
+background = "{{ overlay2 | mix(color=base, amount=0.2) | hex }}"
 
 [token]
-foreground = "#{{ text.hex }}"
-secondary = "#{{ subtext1.hex }}"
-tertiary = "#{{ subtext0.hex }}"
-accent = "#{{ lavender.hex }}"
+foreground = "{{ text.hex }}"
+secondary = "{{ subtext1.hex }}"
+tertiary = "{{ subtext0.hex }}"
+accent = "{{ lavender.hex }}"
 
 [panel]
-background = "#{{ mantle.hex }}"
-surface = "#{{ surface0.hex }}"
-border = "#{{ surface1.hex }}"
+background = "{{ mantle.hex }}"
+surface = "{{ surface0.hex }}"
+border = "{{ surface1.hex }}"
 
 [sidebar]
-background = "#{{ mantle.hex }}"
-border-right = "1px solid #{{ surface0.hex }}"
+background = "{{ mantle.hex }}"
+border-right = "1px solid {{ surface0.hex }}"
 material = "none"
 
 [tab]
-foreground = "#{{ subtext0.hex }}"
+foreground = "{{ subtext0.hex }}"
 
 [tab.active]
-background = "#{{ surface0.hex }}"
-foreground = "#{{ text.hex }}"
+background = "{{ surface0.hex }}"
+foreground = "{{ text.hex }}"
 
 [tab.hover]
-background = "#{{ surface0.hex }}66"
+background = "{{ surface0.hex }}66"
 
 [tab-bar]
-border-bottom = "1px solid #{{ surface0.hex }}"
+border-bottom = "1px solid {{ surface0.hex }}"
