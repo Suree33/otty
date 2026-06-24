@@ -8,8 +8,9 @@ on:
     branches: [main]
 
 jobs:
-  run:
+  ci:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    name: CI
     with:
       args: otty.tera
     secrets: inherit
