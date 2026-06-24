@@ -52,7 +52,7 @@ background = "{{ surface0.hex }}"
 foreground = "{{ text.hex }}"
 
 [tab.hover]
-background = "{{ surface0.hex }}66"
+background = "{{ surface0 | mod(opacity=0.4) | hex }}"
 
 [tab-bar]
 border-bottom = "1px solid {{ surface0.hex }}"
